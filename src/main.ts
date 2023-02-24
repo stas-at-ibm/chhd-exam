@@ -18,7 +18,7 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //   });
 
 // ! TOKEN USE CASES
-// TokenUseCase.addNameCase1()
+// TokenUseCase.createFungibleTokenInAccount1()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();
@@ -28,7 +28,27 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //     process.exit();
 //   });
 
-// TokenUseCase.addNameCase2()
+// TokenUseCase.transferTokensToAcc3AndAcc4()
+//   .then(() => {
+//     log.info("done...");
+//     process.exit();
+//   })
+//   .catch((err) => {
+//     log.error(err);
+//     process.exit();
+//   });
+
+// TokenUseCase.pauseTokenAndFailTransfer()
+//   .then(() => {
+//     log.info("done...");
+//     process.exit();
+//   })
+//   .catch((err) => {
+//     log.error(err);
+//     process.exit();
+//   });
+
+// TokenUseCase.unpauseTokenAndTransfer()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();

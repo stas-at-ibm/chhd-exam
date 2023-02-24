@@ -54,3 +54,36 @@
 {"level":30,"time":1677243026664,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for reciever 0.0.3563221 is 1000 ℏ"}
 {"level":30,"time":1677243026664,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for reciever 0.0.3563221 is: 25"}
 {"level":30,"time":1677243026665,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677243721222,"pid":59280,"hostname":"ibm16.local","name":"hg-demo","msg":"the token 0.0.3563385 pause key is: null"}
+{"level":30,"time":1677243721226,"pid":59280,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677244193135,"pid":59507,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677244193138,"pid":59507,"hostname":"ibm16.local","name":"hg-demo","msg":"the new token ID is 0.0.3564599"}
+{"level":30,"time":1677244193580,"pid":59507,"hostname":"ibm16.local","name":"hg-demo","msg":"the balance of the user 0.0.3563220 is: 350"}
+{"level":30,"time":1677244193580,"pid":59507,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677244222437,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677244222440,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"token 0.0.3564599 associated with the user 0.0.3563222 account"}
+{"level":30,"time":1677244224054,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677244224396,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for sender 0.0.3563220 is 1000 ℏ"}
+{"level":30,"time":1677244224396,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for sender 0.0.3563220 is: 325"}
+{"level":30,"time":1677244224845,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for reciever 0.0.3563222 is 1000 ℏ"}
+{"level":30,"time":1677244224846,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for reciever 0.0.3563222 is: 25"}
+{"level":30,"time":1677244226133,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677244226133,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"token 0.0.3564599 associated with the user 0.0.3563221 account"}
+{"level":30,"time":1677244227907,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677244228109,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for sender 0.0.3563220 is 1000 ℏ"}
+{"level":30,"time":1677244228109,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for sender 0.0.3563220 is: 300"}
+{"level":30,"time":1677244228328,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for reciever 0.0.3563221 is 1000 ℏ"}
+{"level":30,"time":1677244228328,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for reciever 0.0.3563221 is: 25"}
+{"level":30,"time":1677244228328,"pid":59555,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677245021346,"pid":60079,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677245022153,"pid":60079,"hostname":"ibm16.local","name":"hg-demo","msg":"the token 0.0.3564599 has the pause status: paused"}
+{"level":50,"time":1677245023599,"pid":60079,"hostname":"ibm16.local","name":"hg-demo","err":{"type":"ReceiptStatusError","message":"receipt for transaction 0.0.3542860@1677245012.175387114 contained error status TOKEN_IS_PAUSED","stack":"StatusError: receipt for transaction 0.0.3542860@1677245012.175387114 contained error status TOKEN_IS_PAUSED\n    at new ReceiptStatusError (/Users/stanislavjakuschevskij/Dev/_/edu/blockchain/hedera-hashgraph/chhd-exam/node_modules/@hashgraph/sdk/lib/ReceiptStatusError.cjs:43:5)\n    at TransactionReceiptQuery._mapStatusError (/Users/stanislavjakuschevskij/Dev/_/edu/blockchain/hedera-hashgraph/chhd-exam/node_modules/@hashgraph/sdk/lib/transaction/TransactionReceiptQuery.cjs:273:12)\n    at TransactionReceiptQuery.execute (/Users/stanislavjakuschevskij/Dev/_/edu/blockchain/hedera-hashgraph/chhd-exam/node_modules/@hashgraph/sdk/lib/Executable.cjs:644:22)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TransactionResponse.getReceipt (/Users/stanislavjakuschevskij/Dev/_/edu/blockchain/hedera-hashgraph/chhd-exam/node_modules/@hashgraph/sdk/lib/transaction/TransactionResponse.cjs:88:21)\n    at async Function._TokenUseCase_transfer (/Users/stanislavjakuschevskij/Dev/_/edu/blockchain/hedera-hashgraph/chhd-exam/src/use-cases/token.use.cases.ts:176:21)\n    at async Function.pauseTokenAndFailTransfer (/Users/stanislavjakuschevskij/Dev/_/edu/blockchain/hedera-hashgraph/chhd-exam/src/use-cases/token.use.cases.ts:229:7)","name":"StatusError","status":{"_code":265},"transactionId":{"accountId":{"shard":{"low":0,"high":0,"unsigned":false},"realm":{"low":0,"high":0,"unsigned":false},"num":{"low":3542860,"high":0,"unsigned":false},"aliasKey":null,"aliasEvmAddress":null,"_checksum":null},"validStart":{"seconds":{"low":1677245012,"high":0,"unsigned":false},"nanos":{"low":175387114,"high":0,"unsigned":false}},"scheduled":false,"nonce":null},"transactionReceipt":{"status":{"_code":265},"accountId":null,"fileId":null,"contractId":null,"topicId":null,"tokenId":null,"scheduleId":null,"exchangeRate":{"hbars":30000,"cents":243063,"expirationTime":"2023-02-24T14:00:00.000Z","exchangeRateInCents":8.1021},"topicSequenceNumber":{"low":0,"high":0,"unsigned":false},"topicRunningHash":{},"totalSupply":{"low":0,"high":0,"unsigned":false},"scheduledTransactionId":null,"serials":[],"duplicates":[],"children":[]}},"msg":"transfer to acc 0.0.3563222 failed, the token is in pause status: paused"}
+{"level":30,"time":1677245023602,"pid":60079,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677245373810,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677245375702,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677245376475,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"the token 0.0.3564599 has the pause status: not paused"}
+{"level":30,"time":1677245376846,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for sender 0.0.3563220 is 1000 ℏ"}
+{"level":30,"time":1677245376847,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for sender 0.0.3563220 is: 299"}
+{"level":30,"time":1677245377193,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for reciever 0.0.3563222 is 1000 ℏ"}
+{"level":30,"time":1677245377194,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for reciever 0.0.3563222 is: 26"}
+{"level":30,"time":1677245377194,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
