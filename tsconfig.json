@@ -1,0 +1,22 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "ts-node": {
+    "files": true,
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "paths": {},
+    "outDir": "./dist",
+    "rootDirs": [
+      "./src",
+    ],
+    "baseUrl": "./",
+    "strict": true,
+    "allowJs": false,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "target": "ES2020",
+    "module": "CommonJS"
+  }
+}

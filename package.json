@@ -1,0 +1,43 @@
+{
+  "name": "chhd-exam",
+  "version": "0.0.1",
+  "description": "Certified Hedera Hashgraph Developer exam submission.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "test",
+    "pretty": "prettier --write .",
+    "start": "ts-node src/main.ts",
+    "watch": "tsnd -r tsconfig-paths/register --respawn src/main.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "1.0.1",
+    "@types/pino": "7.0.5",
+    "prettier": "2.8.1",
+    "ts-node": "10.9.1",
+    "ts-node-dev": "2.0.0",
+    "tsconfig-paths": "4.1.2",
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "2.20.0",
+    "dotenv": "16.0.1",
+    "pino": "8.10.0",
+    "pino-pretty": "9.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stas-at-ibm/chhd-exam.git"
+  },
+  "keywords": [
+    "hedera",
+    "hashgraph",
+    "chhd",
+    "exam"
+  ],
+  "author": "Stanislav Jakuschevskij",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stas-at-ibm/chhd-exam/issues"
+  },
+  "homepage": "https://github.com/stas-at-ibm/chhd-exam#readme"
+}
