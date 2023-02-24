@@ -90,7 +90,7 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //   });
 
 // ! MULTISIG USE CASES
-// MultiSigUseCases.addNameCase1()
+// MultiSigUseCases.createTreasuryForAcc2()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();
@@ -100,7 +100,7 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //     process.exit();
 //   });
 
-// MultiSigUseCases.addNameCase2()
+// MultiSigUseCases.transfer20HbarToAcc3()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();
