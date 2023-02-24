@@ -105,3 +105,9 @@
 {"level":30,"time":1677249369952,"pid":63082,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
 {"level":30,"time":1677249958847,"pid":63539,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
 {"level":30,"time":1677249958850,"pid":63539,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677250113191,"pid":63748,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677250113194,"pid":63748,"hostname":"ibm16.local","name":"hg-demo","msg":"your contract ID is: 0.0.3566990"}
+{"level":30,"time":1677250113195,"pid":63748,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677250251564,"pid":63854,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677250252481,"pid":63854,"hostname":"ibm16.local","name":"hg-demo","msg":"the result of function1 is: 42"}
+{"level":30,"time":1677250252482,"pid":63854,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
