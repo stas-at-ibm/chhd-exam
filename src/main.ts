@@ -59,7 +59,17 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //   });
 
 // ! SCHEDULE USE CASES
-// ScheduledUseCases.scheduleTx()
+// ScheduledUseCases.scheduleTxAndExportAsBase64()
+//   .then(() => {
+//     log.info("done...");
+//     process.exit();
+//   })
+//   .catch((err) => {
+//     log.error(err);
+//     process.exit();
+//   });
+
+// ScheduledUseCases.importBase64AndSubmitScheduledTx()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();
