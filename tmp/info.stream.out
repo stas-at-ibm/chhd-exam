@@ -92,3 +92,7 @@
 {"level":30,"time":1677246176721,"pid":60767,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
 {"level":30,"time":1677246222079,"pid":60820,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
 {"level":30,"time":1677246222082,"pid":60820,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677247273141,"pid":61412,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677247273144,"pid":61412,"hostname":"ibm16.local","name":"hg-demo","msg":"the schedule ID is 0.0.3566096"}
+{"level":30,"time":1677247273883,"pid":61412,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted schedule tx 0.0.3566096 as base64 to file system on path: <project-root>/artifacts/scheduled_tx"}
+{"level":30,"time":1677247273884,"pid":61412,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
