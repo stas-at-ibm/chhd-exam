@@ -101,7 +101,7 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //   });
 
 // ! CONSENSUS USE CASES
-// ConsensusUseCases.addNameCase1()
+// ConsensusUseCases.createTopicWithAcc1()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();
@@ -111,7 +111,7 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //     process.exit();
 //   });
 
-// ConsensusUseCases.addNameCase2()
+// ConsensusUseCases.submitTimestampAsMessage()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();

@@ -87,3 +87,8 @@
 {"level":30,"time":1677245377193,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for reciever 0.0.3563222 is 1000 ℏ"}
 {"level":30,"time":1677245377194,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for reciever 0.0.3563222 is: 26"}
 {"level":30,"time":1677245377194,"pid":60291,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677246176717,"pid":60767,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677246176720,"pid":60767,"hostname":"ibm16.local","name":"hg-demo","msg":"your topic ID is: 0.0.3565568"}
+{"level":30,"time":1677246176721,"pid":60767,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677246222079,"pid":60820,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677246222082,"pid":60820,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
