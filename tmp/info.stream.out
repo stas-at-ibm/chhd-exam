@@ -111,3 +111,6 @@
 {"level":30,"time":1677250251564,"pid":63854,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
 {"level":30,"time":1677250252481,"pid":63854,"hostname":"ibm16.local","name":"hg-demo","msg":"the result of function1 is: 42"}
 {"level":30,"time":1677250252482,"pid":63854,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677250592231,"pid":64060,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677250593094,"pid":64060,"hostname":"ibm16.local","name":"hg-demo","msg":"the result of function2 is: 44"}
+{"level":30,"time":1677250593095,"pid":64060,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}

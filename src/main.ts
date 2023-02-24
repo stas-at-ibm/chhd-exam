@@ -152,7 +152,7 @@ import { SmartContractUseCases } from "./use-cases/smart.contract.use.cases";
 //     process.exit();
 //   });
 
-// SmartContractUseCases.deleteContract()
+// SmartContractUseCases.callFunc2()
 //   .then(() => {
 //     log.info("done...");
 //     process.exit();
