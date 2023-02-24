@@ -34,3 +34,23 @@
 {"level":30,"time":1677241411115,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted account account4 to path: <project-root>/artifacts/account4.json"}
 {"level":30,"time":1677241411115,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted account account5 to path: <project-root>/artifacts/account5.json"}
 {"level":30,"time":1677241411116,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677241747006,"pid":58287,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677241747009,"pid":58287,"hostname":"ibm16.local","name":"hg-demo","msg":"the new token ID is 0.0.3563385"}
+{"level":30,"time":1677241747460,"pid":58287,"hostname":"ibm16.local","name":"hg-demo","msg":"the balance of the user 0.0.3563220 is: 350"}
+{"level":30,"time":1677241747460,"pid":58287,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677242990236,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677242990239,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"token 0.0.3563385 associated with the user 0.0.3563222 account"}
+{"level":30,"time":1677242992217,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677242992557,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for sender 0.0.3563220 is 1000 ℏ"}
+{"level":30,"time":1677242992558,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for sender 0.0.3563220 is: 325"}
+{"level":30,"time":1677242992731,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for reciever 0.0.3563222 is 1000 ℏ"}
+{"level":30,"time":1677242992731,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for reciever 0.0.3563222 is: 25"}
+{"level":30,"time":1677242992731,"pid":58830,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
+{"level":30,"time":1677243024617,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677243024620,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"token 0.0.3563385 associated with the user 0.0.3563221 account"}
+{"level":30,"time":1677243026077,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677243026479,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for sender 0.0.3563220 is 1000 ℏ"}
+{"level":30,"time":1677243026480,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for sender 0.0.3563220 is: 300"}
+{"level":30,"time":1677243026664,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"the account balance for reciever 0.0.3563221 is 1000 ℏ"}
+{"level":30,"time":1677243026664,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"the token balance for reciever 0.0.3563221 is: 25"}
+{"level":30,"time":1677243026665,"pid":58875,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
