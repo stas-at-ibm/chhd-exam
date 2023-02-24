@@ -1,10 +1,7 @@
 import {
   AccountAllowanceApproveTransaction,
   AccountBalanceQuery,
-  AccountCreateTransaction,
-  AccountId,
   Hbar,
-  KeyList,
   TransferTransaction,
 } from "@hashgraph/sdk";
 import { client } from "src/utils/client";
@@ -13,6 +10,8 @@ import { log } from "src/utils/log";
 
 export class MultiSigUseCases {
   static async createTreasuryForAcc2() {
+    client.setOperator(env.acc1.id, env.acc1.privateKey);
+
     const tx = new AccountAllowanceApproveTransaction()
       .approveHbarAllowance(env.acc1.id, env.acc2.id, new Hbar(20))
       .freezeWith(client);
@@ -27,6 +26,8 @@ export class MultiSigUseCases {
   }
 
   static async transfer20HbarToAcc3() {
+    client.setOperator(env.acc1.id, env.acc1.privateKey);
+
     await this.#logBalance(env.acc3.id);
 
     const tx = new TransferTransaction()
@@ -34,7 +35,7 @@ export class MultiSigUseCases {
       .addHbarTransfer(env.acc3.id, new Hbar(20))
       .freezeWith(client);
 
-    const signTx = await (await tx.sign(env.acc1.privateKey)).sign(env.acc2.privateKey);
+    const signTx = await tx.sign(env.acc2.privateKey);
 
     const txResponse = await signTx.execute(client);
 
