@@ -32,7 +32,6 @@ export class MultiSigUseCases {
     const tx = new TransferTransaction()
       .addApprovedHbarTransfer(env.acc1.id, new Hbar(-20))
       .addHbarTransfer(env.acc3.id, new Hbar(20))
-      .setNodeAccountIds([new AccountId(3)])
       .freezeWith(client);
 
     const signTx = await (await tx.sign(env.acc1.privateKey)).sign(env.acc2.privateKey);
