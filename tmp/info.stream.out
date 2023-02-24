@@ -1,0 +1,36 @@
+{"level":30,"time":1677241409166,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677241409346,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677241409670,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677241409809,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677241409826,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"transaction status is SUCCESS"}
+{"level":30,"time":1677241410051,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account name is: account1"}
+{"level":30,"time":1677241410051,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account ID is: 0.0.3563220"}
+{"level":30,"time":1677241410051,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account private key is: faff5df34cbf192ab3fcb1ff804dc19ad106f40998f91df72bbaae3391205ffe"}
+{"level":30,"time":1677241410052,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account public key is: 9eec3ef5f4a4f701b0e5b51f61b4e877c26a70e6372e85d7dbc9ecd12664338a"}
+{"level":30,"time":1677241410052,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account balance is: 1000 ℏ\n"}
+{"level":30,"time":1677241410225,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account name is: account2"}
+{"level":30,"time":1677241410226,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account ID is: 0.0.3563219"}
+{"level":30,"time":1677241410226,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account private key is: 62f806644bd616bc431113e2831c6709a59bf5c62ced5e5c65d4f470f2bb6e74"}
+{"level":30,"time":1677241410226,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account public key is: a3117083cfc71c2b353c3aa244c0f7b73a8c82d5771dd217ab0442e816051f9a"}
+{"level":30,"time":1677241410226,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account balance is: 1000 ℏ\n"}
+{"level":30,"time":1677241410410,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account name is: account3"}
+{"level":30,"time":1677241410410,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account ID is: 0.0.3563222"}
+{"level":30,"time":1677241410411,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account private key is: be3822e5ef8de5f041c83980a67ef5d052a3d386b637b95cb80f675912726f48"}
+{"level":30,"time":1677241410411,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account public key is: 60e12a995edf385830deebcbf855556e384a54893947c45bd305b3fef3a46d65"}
+{"level":30,"time":1677241410411,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account balance is: 1000 ℏ\n"}
+{"level":30,"time":1677241410905,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account name is: account4"}
+{"level":30,"time":1677241410905,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account ID is: 0.0.3563221"}
+{"level":30,"time":1677241410905,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account private key is: 3d2e7ab06fd90b69062bb4154e986d11016a3e9a51f7f9ebfba313dcfdcc5999"}
+{"level":30,"time":1677241410906,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account public key is: f1ce323346590c687adafe324fa581a4339e60409a6dce3305be386dcdd7a4aa"}
+{"level":30,"time":1677241410906,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account balance is: 1000 ℏ\n"}
+{"level":30,"time":1677241411113,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account name is: account5"}
+{"level":30,"time":1677241411113,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account ID is: 0.0.3563218"}
+{"level":30,"time":1677241411113,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account private key is: 5eb5f3f5ba42e87bb1ecb130c751a062f9bc56ebfa855bc800247be0d957ffff"}
+{"level":30,"time":1677241411114,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account public key is: a9e53c5fa193af1200411e7066ff62fa36fa5bee183d7e922f0261ee45411002"}
+{"level":30,"time":1677241411114,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"the new account balance is: 1000 ℏ\n"}
+{"level":30,"time":1677241411114,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted account account1 to path: <project-root>/artifacts/account1.json"}
+{"level":30,"time":1677241411115,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted account account2 to path: <project-root>/artifacts/account2.json"}
+{"level":30,"time":1677241411115,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted account account3 to path: <project-root>/artifacts/account3.json"}
+{"level":30,"time":1677241411115,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted account account4 to path: <project-root>/artifacts/account4.json"}
+{"level":30,"time":1677241411115,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"persisted account account5 to path: <project-root>/artifacts/account5.json"}
+{"level":30,"time":1677241411116,"pid":57905,"hostname":"ibm16.local","name":"hg-demo","msg":"done..."}
